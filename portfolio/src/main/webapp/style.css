@@ -1,9 +1,60 @@
 #content {
+  
   margin-left: auto;
   margin-right: auto;
-  width: 650px;
+  width: 940px
+
 }
 
+#banner {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+
+}
+
+#circle {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(0, 0, 0) hsl(0, 0%, 0%);
+    border-image: none;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 0px;
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+      }
+
+
+   
 #greeting-container {
   margin-top: 20px;
+  color: lightgray;
 }
+
+
+ #rounded-borders {  
+        height: 400px;
+        width: 300px;
+        border-color: rgb(255, 255, 255) #ffffff;
+        border-image: none;
+        border-radius: 50px 0 50px 0;
+        border-style: groove;
+        border-width: 25px;
+        margin-right: auto;
+        margin-left: auto;
+
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+
