@@ -8,6 +8,8 @@
   </head>
   <body >
 
+
+
     <div id="banner">
         <h2 style="top: 0px; background-color: palevioletred; color: lightgray;">
                 Personal Projects | Gallery | Professional Projects      
@@ -112,7 +114,7 @@
 
         </ul>
 
-        <p style=" color: lightgray; font-size: 18pt; font-style: italic;">
+        <p style="color: lightgray; font-size: 18pt; font-style: italic;">
     	Summer 2021 Internship – L3 Harris Software Engineering Intern 
         </p>  
 
@@ -153,10 +155,28 @@
     <button onclick="showRandMsg();">
       Get a Message
     </button>
+
+    <button onclick="addRandomVideoGame();">
+      videoGame
+    </button>
+    
+    <p id="randVid-container"></p>
+
+    
     <p id="randMsgs-container"></p>
     <p>Click <a href="/randMsg">CLICK ME</a> to see the server response directly.</p>
 
+    <form action= "/form-handler" method="POST">
+    <p>Enter some text here:</p>
+    <textarea name="text-input">hello world</textarea>
+    <br/>
+    <input type="submit" />
+    </form>
+
+
     </div>
+
+  
 
 
   </body>

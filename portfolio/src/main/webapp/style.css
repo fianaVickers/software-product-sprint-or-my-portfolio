@@ -35,9 +35,7 @@
 body {
 
   border-top:lightslategray;
-
   background-color:grey;
-
   background-image: url('images/wooddark.jpeg');
 
     }
@@ -67,4 +65,6 @@ body {
         height: 100%;
         width: 100%;
       }
+
+      
 
